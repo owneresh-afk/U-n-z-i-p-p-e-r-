@@ -1,0 +1,18 @@
+# ── System packages required ──────────────────────────────────────────────────
+# Ubuntu/Debian:  apt install unrar p7zip-full cabextract
+# Termux/Android: pkg install unrar p7zip cabextract
+# macOS:          brew install unrar p7zip
+
+# ── Python dependencies ───────────────────────────────────────────────────────
+requests>=2.31.0
+flask>=3.0.2
+
+# Archive extraction engines
+patool>=2.0.0
+rarfile>=4.1
+py7zr>=0.21.0
+
+# Utilities
+python-dotenv>=1.0.1
+humanize>=4.9.0
+tqdm>=4.66.0
